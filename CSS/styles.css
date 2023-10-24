@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: grey;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    width: 30%;
+    left: 70%;
+    padding-bottom: 3px;
+}
+
+#first {
+    background-color: pink;
+}
+
+#second {
+    background-color: red;
+}
+
+#third {
+    background-color: yellow;
+}
+
+@media screen and (min-width: 992px) {
+    
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .one, .two {
+        width: 45%;
+    }
+    
+    .three {
+        width: 96%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .one, .two {
+        width: 96%;
+    }
+    
+    .three {
+        width: 96%;
+    }
+  }
